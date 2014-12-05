@@ -4,7 +4,7 @@
 
 The default PS1 prompt on Synology NAS only contains the hostname.
 
-Most of people custom there PS1 under a user account (root,admin), or globally in /etc/profile, but each time you upgrade your DSM release, PS1 goes back to default value
+Most of people custom their PS1 under a user account (root,admin), or globally in /etc/profile, but each time you upgrade your DSM release, PS1 goes back to default value
 
 
 ## What does it do ?
@@ -15,7 +15,7 @@ Most of people custom there PS1 under a user account (root,admin), or globally i
     /etc/profile
     /opt/etc/profile (ipkg)
 
-2/ copy your personal file to /etc/myps1.sh, and include it in /etc/profile if necessary
+2/ Copy your personal file to /etc/myps1.sh, and include it in /etc/profile if necessary
 
 
 ## Configuration
@@ -29,7 +29,7 @@ As root, or under a user with sudo privileges (install it from ipkg)
 
     (sudo) sh customPS1/fix_profile_PS1.sh
 
-just reconnect, under any users, your global prompt should appears :-)
+Just reconnect, under any users, your global prompt should appears :-)
 
 
 
