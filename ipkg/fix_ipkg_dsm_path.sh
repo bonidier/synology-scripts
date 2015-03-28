@@ -1,4 +1,5 @@
 #!/bin/sh
+[ $(id -u) -ne 0 ] && echo "should be runned as root or sudo" && exit 1
 
 which ipkg && echo "ipkg already in path" && exit 1
 
